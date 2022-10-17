@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.authors      = package["author"]
 
   s.platforms    = { :ios => "11.0" }
-  s.source       = { :git => "https://github.com/millo-L/react-native-kakao-share-link.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/sanghyuk-2i/react-native-kakao-share-link.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,c,cc,cpp,m,mm,swift}"
   s.requires_arc = true
